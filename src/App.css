@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #333333, #000000); /* Gradiente de negro claro a negro oscuro para el fondo del documento */
+  color: #fff; /* Color del texto blanco */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  background: linear-gradient(180deg, #333333, #000000); /* Gradiente de negro claro a negro oscuro para el contenedor principal */
+  min-height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+  padding: 20px; /* Espaciado interno */
+  box-sizing: border-box;
+}
+
+nav, footer, .carousel-item {
+  background: linear-gradient(180deg, #333333, #000000); /* Gradiente de negro claro a negro oscuro para estos elementos */
+}

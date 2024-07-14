@@ -1,0 +1,53 @@
+.nuevo-video {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nuevo-video h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nuevo-video form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nuevo-video input,
+  .nuevo-video select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .nuevo-video input[type="text"],
+  .nuevo-video select {
+    background-color: #333;
+    color: white;
+  }
+  
+  .nuevo-video input::placeholder {
+    color: #ccc;
+  }
+  
+  .nuevo-video button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nuevo-video button:hover {
+    background-color: #0056b3;
+  }
+  
